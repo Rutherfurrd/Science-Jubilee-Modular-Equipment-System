@@ -1,0 +1,4154 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5a3aa872-cd7a-4a4d-b6b3-3b0c0e1a7655")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Motor_DC"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_DC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.7272) (xy 0 2.0828)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.7752) (xy 0 -5.1816)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 121.92 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19c83c63-30b2-4184-8f48-da62c66ba127")
+	)
+	(junction
+		(at 88.9 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "331ebe00-2e40-4487-a4c4-45013e1befcb")
+	)
+	(junction
+		(at 109.22 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "362e2f5a-b2b7-4356-8f8f-83b050d931e7")
+	)
+	(junction
+		(at 142.24 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36650396-d2e7-4bcb-b7f1-d911d0abe5c2")
+	)
+	(junction
+		(at 41.91 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3674e704-c839-480f-a7b5-5f4475a5bbeb")
+	)
+	(junction
+		(at 154.94 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "449bafca-ea08-4033-9fc5-744ebc315a07")
+	)
+	(junction
+		(at 154.94 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "554216c8-6626-4bf8-bf83-3b277779e6e7")
+	)
+	(junction
+		(at 88.9 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5629eaa8-dbfb-40e7-ada0-f24fd1fe9a41")
+	)
+	(junction
+		(at 76.2 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5afcaec4-0772-4ec0-98a6-1f8baec6225b")
+	)
+	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670fdd7f-952b-4dcc-b5dc-dd05a2337419")
+	)
+	(junction
+		(at 121.92 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f94a4c7-2b8e-40dc-9b1e-c4cd993db4ff")
+	)
+	(junction
+		(at 54.61 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "743f798b-4959-40b5-952b-bd6e88993599")
+	)
+	(junction
+		(at 142.24 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "756d6bad-f1b3-4ee1-bb2a-38d5bb83c58c")
+	)
+	(junction
+		(at 76.2 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "804583e0-7f43-4fd3-a283-b38bf8989a61")
+	)
+	(junction
+		(at 109.22 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84767fdc-ac09-495d-921c-315e037d485c")
+	)
+	(junction
+		(at 109.22 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f6844cd-3f00-4414-8012-f6830d8bbe7f")
+	)
+	(junction
+		(at 154.94 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "917653c7-a9e4-4ed5-9dd9-eb2097643215")
+	)
+	(junction
+		(at 142.24 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91ffad30-62f2-4b2b-a512-85b0805aaa76")
+	)
+	(junction
+		(at 76.2 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1397f16-01d8-4902-98af-347e36b167a8")
+	)
+	(junction
+		(at 88.9 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca563937-83ef-434a-97ae-9662c22ae07d")
+	)
+	(junction
+		(at 54.61 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcbdd3f6-57d1-4e5c-a602-2c83ab32d17e")
+	)
+	(junction
+		(at 54.61 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8fe0891-6473-4743-91fc-e4d12059d677")
+	)
+	(junction
+		(at 41.91 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eea8e447-9612-4a72-8233-f58d5b8068fa")
+	)
+	(junction
+		(at 41.91 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c6607b-887b-49a7-95cd-4c63044d25db")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035db444-10eb-44ef-b95a-dd5d52d501e8")
+	)
+	(wire
+		(pts
+			(xy 88.9 43.18) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061b4536-1e15-463f-bcb9-2e17a71f8013")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078a6b08-b0e6-4f9e-abeb-2153d2ceb5be")
+	)
+	(wire
+		(pts
+			(xy 52.07 44.45) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0baa6e56-426c-4e78-b32c-9f2cad0dad7a")
+	)
+	(wire
+		(pts
+			(xy 41.91 72.39) (xy 41.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8210b9-b5c2-4630-9a26-f76d40d33f8e")
+	)
+	(wire
+		(pts
+			(xy 142.24 54.61) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148caa84-f166-4d64-97e9-e67331096cde")
+	)
+	(wire
+		(pts
+			(xy 54.61 44.45) (xy 54.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e9fa34-a434-4a80-a6d9-7a15168aa753")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c211b0-5afa-41a4-a530-16f4f3427a12")
+	)
+	(wire
+		(pts
+			(xy 88.9 54.61) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a641c7b-7027-4c20-94c0-e6ac4a1b6fb7")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da844ab-8bd9-4c53-a5d3-afb86a2d17be")
+	)
+	(wire
+		(pts
+			(xy 54.61 86.36) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aec4828-67e9-4118-ae86-1e06d980738b")
+	)
+	(wire
+		(pts
+			(xy 121.92 43.18) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc645f1-b9eb-4454-8ed9-5f2254c66efa")
+	)
+	(wire
+		(pts
+			(xy 142.24 71.12) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ae08f1-788a-46a2-b70f-ff32a086337f")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 41.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa00a22-655b-4b5e-95bb-5b681f1706f5")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 76.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8594f2-0d94-427d-bcad-8c7d5f9bfb9f")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 142.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63560fd9-0237-46a4-940c-c956b80dd42e")
+	)
+	(wire
+		(pts
+			(xy 109.22 85.09) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d6dafb-7663-4842-95ad-774759c505d6")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 109.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b41f6c6-1b42-4ffc-b78a-5a11c0848e54")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dce0225-3c51-4bfe-8abe-d3d6763323e1")
+	)
+	(wire
+		(pts
+			(xy 76.2 54.61) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5bc292-1510-4464-997c-d21026f75c3f")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 41.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8603db64-3c36-4545-b215-6d156483817f")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ef0020-72fa-4f27-8467-06588fba03a4")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1044a1-1f62-4819-b8e3-c4eba888ca2f")
+	)
+	(wire
+		(pts
+			(xy 119.38 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca71c6b-8ae9-4da7-afd5-ef4d0cdb989a")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e723213-b2bc-46f7-b33b-16ba566b9d3e")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fe787a-c00d-41ea-92f7-92a923434822")
+	)
+	(wire
+		(pts
+			(xy 41.91 44.45) (xy 41.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4d2a72-9dbd-491d-9c29-0ea25358ba16")
+	)
+	(wire
+		(pts
+			(xy 121.92 85.09) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6305f6f-12f7-45f7-babd-c61d2f590be2")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d487e79d-1710-4048-b3d2-f15dd147bd2d")
+	)
+	(wire
+		(pts
+			(xy 154.94 43.18) (xy 154.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2feb72-8272-4403-907e-1bc8f5326e85")
+	)
+	(wire
+		(pts
+			(xy 152.4 43.18) (xy 154.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0157af3-255d-4700-bf11-361d5cea790e")
+	)
+	(wire
+		(pts
+			(xy 109.22 54.61) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa381d7-ddd1-4efa-9c81-042eb1966773")
+	)
+	(wire
+		(pts
+			(xy 41.91 44.45) (xy 44.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef28b88d-d27f-4c80-984a-5e4eb49a0468")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 142.24 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f6cadf-6e18-47bb-94fc-91cd88a0a580")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54cfd96-bf5e-4d1f-8680-22ca5ec63dc0")
+	)
+	(wire
+		(pts
+			(xy 154.94 71.12) (xy 154.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ff3a0d-013a-481b-8b21-57f23b51f9f0")
+	)
+	(wire
+		(pts
+			(xy 86.36 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cbb2d1-4d2a-4442-aae4-bc997416dd5c")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc85960-8a02-4d74-8fce-396fa52c9cd6")
+	)
+	(wire
+		(pts
+			(xy 54.61 55.88) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc37f99e-c346-4634-8f7e-59623de4b97c")
+	)
+	(wire
+		(pts
+			(xy 54.61 72.39) (xy 54.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee28381-3f0c-4a7f-8558-16fbe8a5cf56")
+	)
+	(hierarchical_label "Column 4"
+		(shape input)
+		(at 147.32 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ebe08e3-120b-4e12-bbc7-7594bb3f3ca3")
+	)
+	(hierarchical_label "Column 2"
+		(shape input)
+		(at 81.28 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5752af36-d459-47e2-9a41-898d1d54d603")
+	)
+	(hierarchical_label "Column 3"
+		(shape input)
+		(at 114.3 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba0f3ea0-320a-40a6-b0d9-eff421488dfc")
+	)
+	(hierarchical_label "Column 1"
+		(shape input)
+		(at 46.99 99.06 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2b7d4dc-9897-49e1-b27c-6d635a6898ed")
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 114.3 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04e713b0-4658-4e9b-8da5-03f374035e15")
+		(property "Reference" "M21"
+			(at 116.84 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 116.84 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.586 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.586 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a4e5e0c-6589-4aef-8ebe-b44db95ace1d")
+		)
+		(pin "1"
+			(uuid "ec52cf5a-502c-4e71-addc-2801ca204b62")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "098b50f5-fc8e-412f-8038-060667590a35")
+		(property "Reference" "#PWR017"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be68351d-0bf1-4097-9774-d9d3567c14ac")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 114.3 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0df92cbe-3c10-4005-92ad-9d6be95ad73b")
+		(property "Reference" "M19"
+			(at 116.84 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 116.84 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.586 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.586 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5557d5b-2f67-4bbc-9e91-1903027ed8a1")
+		)
+		(pin "1"
+			(uuid "7fbe13f5-2409-4d0f-bfbe-1e87e7b692d3")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 81.28 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f6274e1-3a08-46d7-9b36-becf3f6ab078")
+		(property "Reference" "M17"
+			(at 83.82 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 83.82 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.566 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.566 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2ca718a-a387-465a-aa65-fcff83304c70")
+		)
+		(pin "1"
+			(uuid "e7c0ee62-9feb-4caf-9a94-fba45c99073a")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 46.99 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32072e69-27cb-439a-b648-2e8b5fac7b40")
+		(property "Reference" "M15"
+			(at 49.53 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 49.53 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.276 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.276 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5db5ca6-82c0-4171-ae9f-8e0d6ecfcdd8")
+		)
+		(pin "1"
+			(uuid "1e8852f2-23ad-4db9-be27-14f22ad72685")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c62bbb-8645-4640-aa0c-8020eeeffa92")
+		(property "Reference" "R6"
+			(at 143.51 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f698cd1-06e9-4a2c-84fe-591fc04d9804")
+		)
+		(pin "1"
+			(uuid "ae97ccf4-893b-4733-878a-7dae18464596")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 41.91 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40d72bd8-8355-4720-a0c7-a45ae00f69aa")
+		(property "Reference" "#PWR014"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 41.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fd83b40-1ccf-48bb-8e5f-42ef70ab24e4")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 86.36 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4454b013-1219-4ef9-8a81-fdc786900f20")
+		(property "Reference" "Q2"
+			(at 92.71 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 92.71 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 86.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 86.36 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 86.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6695e30-b60d-43c4-b3ec-844cccfe7365")
+		)
+		(pin "3"
+			(uuid "ffb326c8-8db2-4bef-8a94-745894b5b57e")
+		)
+		(pin "1"
+			(uuid "4f3c2715-4227-45b8-9a9f-f305de5206ce")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 119.38 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d058ae-2e53-4bcf-bc48-531fe3d31038")
+		(property "Reference" "Q3"
+			(at 125.73 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 125.73 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 119.38 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "154e2cad-8b6b-41fc-bc98-d698fb579550")
+		)
+		(pin "3"
+			(uuid "eefab27e-68b2-4492-a039-b1e92483ef4f")
+		)
+		(pin "1"
+			(uuid "51366231-d6eb-45db-bd1a-eecf50e146dc")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad8d87e-c8d0-42b4-8bc3-76c23226a508")
+		(property "Reference" "#PWR020"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ca32a0c-724f-4829-b420-1a0be71b47a0")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 81.28 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ce47110-c5b0-46e8-b5be-77e4120a5593")
+		(property "Reference" "M16"
+			(at 83.82 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 83.82 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.566 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.566 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee6e238b-4523-4399-9fd5-cb21c2b29072")
+		)
+		(pin "1"
+			(uuid "8a0cc5d5-aeca-4833-ac9b-1bec9629459d")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 115.57 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e8e45e3-c887-4bdc-9f74-787f0fb147fe")
+		(property "Reference" "D3"
+			(at 115.2525 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 115.2525 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1f85446-16ef-4121-b5d7-6682ee01b8e1")
+		)
+		(pin "2"
+			(uuid "e9948e5b-faf3-4d69-98f2-16f7adb09ae9")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f58fc68-79b3-4865-b623-317378af936b")
+		(property "Reference" "R3"
+			(at 43.18 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69994374-5cee-4bf6-b88f-49bf449a3dce")
+		)
+		(pin "1"
+			(uuid "2c8f8ce2-4d34-4b73-b4ad-abc9242f08bb")
+		)
+		(instances
+			(project ""
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 82.55 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61c87b2f-3bab-46fb-bd52-01cbba03b250")
+		(property "Reference" "D2"
+			(at 82.2325 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 82.2325 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36918ff8-f532-43c7-a1c7-4bd165a46fab")
+		)
+		(pin "2"
+			(uuid "52722166-3563-497d-8b9d-c8e09348d42c")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 52.07 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a6ac75f-a16e-438f-ae27-28120386eba3")
+		(property "Reference" "Q1"
+			(at 58.42 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 58.42 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 52.07 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6db9e739-fe94-499a-98d9-d23a89b6394c")
+		)
+		(pin "3"
+			(uuid "1965457d-3bde-4fc8-b5aa-c8e29708bc00")
+		)
+		(pin "1"
+			(uuid "b8a7eb7e-b614-458c-9860-2874ce69a379")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b0862fa-33b7-4831-9b8e-d4e16c66157a")
+		(property "Reference" "#PWR01"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6132b41-3ef6-4d13-a5e8-ac430588139d")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86ef17c9-b06b-4cf4-92fe-7342295e0ac6")
+		(property "Reference" "#PWR016"
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbcf0868-ce63-48ac-95d4-0febd4e8e998")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92adb7e5-5337-4e64-921a-72c72c47f88b")
+		(property "Reference" "#PWR015"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef4f780b-a769-42bc-9dd8-66ef1d496246")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 147.32 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9821a064-54e2-46cb-ace2-607f5f34edd6")
+		(property "Reference" "M24"
+			(at 149.86 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 149.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.606 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.606 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b9d70d9-f991-4f01-be30-30f1975f5bd7")
+		)
+		(pin "1"
+			(uuid "9d526c55-db0f-4404-861d-9781b02f2e2d")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 148.59 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99fced63-8d02-4016-b3d4-617f83b0931c")
+		(property "Reference" "D4"
+			(at 148.2725 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 148.2725 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5ad0b52-fc3a-416c-8652-af09caeb4a48")
+		)
+		(pin "2"
+			(uuid "da2c210c-bd91-4c9d-9e33-06e27b7b391b")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9b16217-20fd-4090-a048-37ceeff2c9d1")
+		(property "Reference" "#PWR02"
+			(at 67.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4650739d-e322-4a71-80eb-3a728784bfd8")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adc9be47-d189-4627-8f53-d5a0d35ffb0e")
+		(property "Reference" "#PWR022"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64eb03f2-8655-4a3a-8191-b4bf9a9053e6")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 46.99 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b62feaf1-e1fa-4c3c-ad07-f0ddee35d4fa")
+		(property "Reference" "M13"
+			(at 49.53 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 49.53 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.276 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.276 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 46.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73673268-ade7-405e-bf92-3134f28c8488")
+		)
+		(pin "1"
+			(uuid "d0186779-02fe-4392-a527-b60540b72452")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 152.4 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b97a505a-f3d1-45cb-8d2e-97732118d614")
+		(property "Reference" "Q8"
+			(at 158.75 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 158.75 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 152.4 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d11af360-29ed-4ea5-89e9-dc9474553232")
+		)
+		(pin "3"
+			(uuid "0979e6b0-e9c6-48a4-ae48-f4240816040f")
+		)
+		(pin "1"
+			(uuid "04fd1456-82ac-489e-ba3d-80c3c4e24b33")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bebaf007-2e25-4766-a667-39f637c44e7f")
+		(property "Reference" "R4"
+			(at 77.47 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61909898-71bd-4e81-ac30-9946954d21e5")
+		)
+		(pin "1"
+			(uuid "c0be540d-9e66-4893-b811-020d65975978")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb784699-1919-4978-99ae-67c642bbcadc")
+		(property "Reference" "R5"
+			(at 110.49 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "732c314d-26f7-4c18-9264-9f0ca262a3b7")
+		)
+		(pin "1"
+			(uuid "60c6a45b-b1f2-4b4e-baa6-847f1567b305")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc5123e0-7d72-40c5-bfd3-f667f7254063")
+		(property "Reference" "#PWR019"
+			(at 142.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12616d0e-ab29-448f-8158-97db2cfbe8f7")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 46.99 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9542408-3b52-4f8a-9ff7-0eee31e2f80c")
+		(property "Reference" "M14"
+			(at 49.53 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 49.53 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.276 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.276 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 46.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2d876fc-f70d-4a2f-afee-190c6d478597")
+		)
+		(pin "1"
+			(uuid "5e13b667-7820-4845-a322-3ba2387aa6fd")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9a883b7-26b2-41fa-a5ac-d336fd2d9814")
+		(property "Reference" "#PWR021"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed82e73c-3b63-4df5-8dff-43a0c3553489")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 48.26 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc464f4e-01ab-44fd-8ef6-76091cd70bd6")
+		(property "Reference" "D1"
+			(at 47.9425 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 47.9425 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad4af558-3370-4093-a99a-3bf332eb0379")
+		)
+		(pin "2"
+			(uuid "8ba4a374-a84e-416f-8e8d-bb74a5fba165")
+		)
+		(instances
+			(project ""
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd943331-ce31-45c8-9b4e-084799bc0e63")
+		(property "Reference" "#PWR018"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e3039a-7c94-4b8b-b4b5-1805a99f6d37")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e02db5c6-0017-4e78-8828-a0bf366862e4")
+		(property "Reference" "#PWR013"
+			(at 54.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc2d3e60-0407-4ea6-952b-9ff5cf8cc4b2")
+		)
+		(instances
+			(project ""
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 114.3 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e70bccd0-bc57-4bdf-85e5-c517fbcbc33a")
+		(property "Reference" "M20"
+			(at 116.84 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 116.84 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.586 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.586 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54eca414-e766-4d10-8d99-53a1e7e31312")
+		)
+		(pin "1"
+			(uuid "df72acdf-0597-4f44-a5f4-0b55108d2533")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 81.28 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e78bd1a0-aaea-43dd-a2af-83027984f245")
+		(property "Reference" "M18"
+			(at 83.82 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 83.82 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.566 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.566 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2556e3a-4bed-49bc-8ac8-13ea9fd0b855")
+		)
+		(pin "1"
+			(uuid "594309f2-8894-4903-8d6b-24f367a04241")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 147.32 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e916fb56-65ed-4a3a-b090-c44d667f8115")
+		(property "Reference" "M23"
+			(at 149.86 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 149.86 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.606 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.606 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b333f3a-ebf9-408c-807d-2a1e31a2a9dc")
+		)
+		(pin "1"
+			(uuid "d1b7e045-a062-4e4a-839c-ec58f88b6c83")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 147.32 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef5ac9be-042d-4863-9807-a7495a1d9b6a")
+		(property "Reference" "M22"
+			(at 149.86 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 149.86 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.606 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.606 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb875ff1-ee54-4c55-add9-3dc5028f4af0")
+		)
+		(pin "1"
+			(uuid "3115bac0-c76b-48bb-a997-27a12404100e")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M22")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
