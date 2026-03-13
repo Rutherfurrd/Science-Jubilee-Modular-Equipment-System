@@ -2478,7 +2478,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 99.06 139.7 0)
+		(at 96.52 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2488,7 +2488,7 @@
 		)
 		(uuid "0f41c1d8-d61b-49d8-8293-d4c67dc9026a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.5528 139.7 0)
+			(at 103.0128 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 99.06 137.16 0)
+		(at 96.52 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2554,7 +2554,7 @@
 		)
 		(uuid "3b4c58e8-ba17-4a5b-93f7-625e17a7dc4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.6133 137.16 0)
+			(at 103.0733 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3158,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 93.98 137.16 0)
+		(at 91.44 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3167,7 +3167,7 @@
 		(fields_autoplaced yes)
 		(uuid "70a7e79a-6fd6-4014-bee5-cc8c18f64fae")
 		(property "Reference" "J5"
-			(at 94.615 132.08 0)
+			(at 92.075 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +3175,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 94.615 134.62 0)
+			(at 92.075 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 137.16 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 137.16 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3201,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 93.98 137.16 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
