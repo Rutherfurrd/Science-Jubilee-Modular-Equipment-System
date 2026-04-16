@@ -5,6 +5,46 @@
 	(uuid "c62eecb5-c9b2-465c-b290-edde71c5f13d")
 	(paper "A4")
 	(lib_symbols)
+	(text "Updated USB"
+		(exclude_from_sim no)
+		(at 128.27 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72bc1d53-a2a0-467f-a62e-d19d44768bf2")
+	)
+	(text "Fan"
+		(exclude_from_sim no)
+		(at 125.73 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce73cae3-02ae-4b45-8eca-1c53fd3d5b5b")
+	)
+	(text "Indicator LED"
+		(exclude_from_sim no)
+		(at 127.762 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d892bcfa-f534-4107-b006-9ce9bd0f00cc")
+	)
+	(text "3-state switch"
+		(exclude_from_sim no)
+		(at 126.492 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de479e80-328c-4906-bc1a-67ac102534fc")
+	)
 	(wire
 		(pts
 			(xy 90.17 85.09) (xy 95.25 85.09)
