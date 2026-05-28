@@ -1,0 +1,9 @@
+Jubilee Presentation:
+-3D print control hub housing
+-Mill hotplate blanks
+-Prep small demo
+
+-Add fan to H&S, 20mm
+-Remodel all of H&S
+-Refine hotplate
+-Finish PCB's

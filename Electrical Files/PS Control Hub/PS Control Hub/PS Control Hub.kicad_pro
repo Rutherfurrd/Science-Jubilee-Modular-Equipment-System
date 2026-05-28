@@ -642,16 +642,16 @@
       {
         "filename": "PS Control Hub.kicad_sch",
         "name": "PS Control Hub",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "c62eecb5-c9b2-465c-b290-edde71c5f13d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R12,J1,J3,J16-17,#PWR2-3,#PWR5,#PWR7,#PWR9,#PWR11,#PWR17,#PWR19,#PWR36-46,U1,K2,C1-2,Q1,H1-4",
     "variants": []
   },
   "sheets": [
     [
       "c62eecb5-c9b2-465c-b290-edde71c5f13d",
-      "Root"
+      "PS Control Hub"
     ],
     [
       "85ae4ee1-93f6-4603-8ba8-3eb94bb5db81",

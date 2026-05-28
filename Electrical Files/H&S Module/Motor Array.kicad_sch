@@ -1103,6 +1103,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Select diodes"
+		(exclude_from_sim no)
+		(at 161.29 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44e416f1-52d8-414a-9119-520a1834e8cf")
+	)
 	(junction
 		(at 121.92 54.61)
 		(diameter 0)
@@ -2517,7 +2527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 115.57 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2677,7 +2687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 82.55 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3190,7 +3200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4023,7 +4033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)

@@ -5,7 +5,7 @@
 	(uuid "aca56a62-31b0-4be1-b4a6-d35f547a1a01")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Counter_Clockwise"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,10 +90,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -116,28 +116,6 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -175,42 +153,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1799,16 +1741,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 68.58) (xy 146.05 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ca05f4-cf65-4769-8132-128e0744a6c2")
-	)
-	(wire
-		(pts
 			(xy 190.5 121.92) (xy 194.31 121.92)
 		)
 		(stroke
@@ -1976,16 +1908,6 @@
 			(type default)
 		)
 		(uuid "64c6cd73-ca24-40bb-bc57-442704937be2")
-	)
-	(wire
-		(pts
-			(xy 166.37 68.58) (xy 163.83 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d95459-56c7-4728-b3f0-84c8c8d6ac6e")
 	)
 	(wire
 		(pts
@@ -2277,19 +2199,42 @@
 		)
 		(uuid "fddfec8f-a3f3-482a-b149-85a2b2d80131")
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 133.35 68.58 180)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "030b6213-fd64-4cb2-a43f-d3fa26760419")
+		(property "Reference" "J6"
+			(at 107.95 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify right)
 		)
-		(uuid "3d5545a3-1287-4abe-9128-4111237e5360")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8572 68.58 0)
+		(property "Value" "Conn_01x02"
+			(at 107.95 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
+			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2297,23 +2242,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 133.35 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2f389fa-9ee7-4209-9faf-be5d3732314f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.7967 71.12 0)
+		(property "Datasheet" ""
+			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2321,7 +2253,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc3fce6e-0c80-454f-926c-4ab95dc475f4")
+		)
+		(pin "2"
+			(uuid "198358f6-4627-4795-854a-562eaef522a8")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/1903a3c4-0ebc-4ad6-8618-89474a8749a3"
+					(reference "J6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2484,92 +2440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 138.43 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10c50f5e-996d-4a52-ab63-75c30840e418")
-		(property "Reference" "J9"
-			(at 139.7 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1586042-4"
-			(at 139.7 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fab26b6-73cf-4a23-8578-285fc9e6b0bd")
-		)
-		(pin "3"
-			(uuid "842be660-ff30-43d1-92f7-3679b42b50d9")
-		)
-		(pin "4"
-			(uuid "722e3681-92d7-4ea0-af60-140f4ad5e0ee")
-		)
-		(pin "2"
-			(uuid "338940c8-c829-4f6e-b47d-d304ecbc1177")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/1903a3c4-0ebc-4ad6-8618-89474a8749a3"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 210.82 88.9 0)
 		(unit 1)
@@ -2681,7 +2551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.2152 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3155,87 +3025,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 166.37 68.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f49c3a9-2704-487a-96c7-85bd49ba4418")
-		(property "Reference" "#PWR027"
-			(at 162.56 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 170.18 68.5799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 166.37 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70815d8e-3b1a-4fc3-a892-49ff98b39790")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/1903a3c4-0ebc-4ad6-8618-89474a8749a3"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 146.05 71.12 0)
+		(at 100.33 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3245,7 +3036,7 @@
 		(dnp no)
 		(uuid "56f683c1-85c2-4714-8b31-735370daa4a5")
 		(property "Reference" "#PWR026"
-			(at 146.05 77.47 0)
+			(at 93.98 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 72.3899 0)
+			(at 99.0601 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3267,7 +3058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 71.12 0)
+			(at 100.33 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +3069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 71.12 0)
+			(at 100.33 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 71.12 0)
+			(at 100.33 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4794,7 +4585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 235.9152 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4876,7 +4667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 197.8152 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5115,7 +4906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 211.7852 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5246,8 +5037,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 160.02 68.58 180)
+		(lib_id "power:+24V")
+		(at 100.33 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5256,9 +5047,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ddf355a2-d21f-4f94-97be-6107a8a090d8")
-		(property "Reference" "D6"
-			(at 160.3375 62.23 0)
+		(uuid "ddffa648-d7d1-4197-8731-24645bf8045c")
+		(property "Reference" "#PWR045"
+			(at 104.14 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5267,8 +5059,8 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 160.3375 64.77 0)
+		(property "Value" "+24V"
+			(at 99.06 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5278,7 +5070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 68.58 0)
+			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +5081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 68.58 0)
+			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5299,8 +5091,8 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 160.02 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,17 +5101,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "0bdea19f-07d8-4305-ae7e-51c2837d8cd2")
 		)
 		(pin "1"
-			(uuid "561f10d2-97f2-4911-9f0e-378fb35bc604")
+			(uuid "a27aad82-7ad7-463b-8072-b032d01cc997")
 		)
 		(instances
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/1903a3c4-0ebc-4ad6-8618-89474a8749a3"
-					(reference "D6")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
