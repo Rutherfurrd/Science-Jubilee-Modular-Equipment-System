@@ -1103,6 +1103,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "*Requires 6V"
+		(exclude_from_sim no)
+		(at 51.562 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d2edaca-fec4-432a-8d96-b0691ee27202")
+	)
 	(text "Select diodes"
 		(exclude_from_sim no)
 		(at 161.29 33.274 0)
@@ -1114,16 +1124,28 @@
 		(uuid "44e416f1-52d8-414a-9119-520a1834e8cf")
 	)
 	(junction
-		(at 121.92 54.61)
+		(at 41.91 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19c83c63-30b2-4184-8f48-da62c66ba127")
+		(uuid "01fc89e8-4d32-41d2-b286-c83c0b7f5ca1")
 	)
 	(junction
-		(at 88.9 71.12)
+		(at 154.94 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "331ebe00-2e40-4487-a4c4-45013e1befcb")
+		(uuid "117502ec-afcc-4136-95cb-0d1969d3cdd1")
+	)
+	(junction
+		(at 88.9 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32cc5b3b-f06e-4473-8467-6844706b6f30")
+	)
+	(junction
+		(at 142.24 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d37d2e-39d4-4e25-b3dc-e4c33c6795c6")
 	)
 	(junction
 		(at 109.22 43.18)
@@ -1132,88 +1154,70 @@
 		(uuid "362e2f5a-b2b7-4356-8f8f-83b050d931e7")
 	)
 	(junction
-		(at 142.24 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36650396-d2e7-4bcb-b7f1-d911d0abe5c2")
-	)
-	(junction
 		(at 41.91 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3674e704-c839-480f-a7b5-5f4475a5bbeb")
 	)
 	(junction
-		(at 154.94 54.61)
+		(at 88.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "449bafca-ea08-4033-9fc5-744ebc315a07")
+		(uuid "412c0731-e600-4a16-b5a8-93d06d8297c7")
 	)
 	(junction
-		(at 154.94 85.09)
+		(at 121.92 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "554216c8-6626-4bf8-bf83-3b277779e6e7")
+		(uuid "41c09ef4-cae0-4ea4-a24a-5b2d1957378e")
 	)
 	(junction
-		(at 88.9 85.09)
+		(at 121.92 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5629eaa8-dbfb-40e7-ada0-f24fd1fe9a41")
+		(uuid "42fd1561-e113-4e8a-87cb-8296b3b45891")
 	)
 	(junction
-		(at 76.2 54.61)
+		(at 54.61 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5afcaec4-0772-4ec0-98a6-1f8baec6225b")
+		(uuid "4eed9e5a-14c8-4a41-a659-842d29a39cb6")
 	)
 	(junction
-		(at 121.92 71.12)
+		(at 54.61 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "670fdd7f-952b-4dcc-b5dc-dd05a2337419")
-	)
-	(junction
-		(at 121.92 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f94a4c7-2b8e-40dc-9b1e-c4cd993db4ff")
+		(uuid "6306da78-b13d-4531-9090-12d070211ed3")
 	)
 	(junction
 		(at 54.61 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "743f798b-4959-40b5-952b-bd6e88993599")
+		(uuid "639d3671-7050-4cb8-b3a1-b0345e9c71e6")
 	)
 	(junction
-		(at 142.24 71.12)
+		(at 88.9 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "756d6bad-f1b3-4ee1-bb2a-38d5bb83c58c")
+		(uuid "7ed6bde4-27db-42c2-b942-c9a79ee71889")
 	)
 	(junction
-		(at 76.2 71.12)
+		(at 109.22 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "804583e0-7f43-4fd3-a283-b38bf8989a61")
+		(uuid "7f17337b-f80c-4ea2-888e-3b302114e6bc")
 	)
 	(junction
-		(at 109.22 71.12)
+		(at 154.94 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84767fdc-ac09-495d-921c-315e037d485c")
+		(uuid "8150ea6a-1f52-4e9e-a6ec-ec17d827d480")
 	)
 	(junction
-		(at 109.22 54.61)
+		(at 76.2 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f6844cd-3f00-4414-8012-f6830d8bbe7f")
-	)
-	(junction
-		(at 154.94 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "917653c7-a9e4-4ed5-9dd9-eb2097643215")
+		(uuid "90e544d5-665e-4a13-b7a3-2562272588a7")
 	)
 	(junction
 		(at 142.24 43.18)
@@ -1222,40 +1226,46 @@
 		(uuid "91ffad30-62f2-4b2b-a512-85b0805aaa76")
 	)
 	(junction
+		(at 121.92 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "942ab9b7-2b6b-4674-bc3b-d36001f929e0")
+	)
+	(junction
+		(at 109.22 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a02a1257-afd3-4f92-b1c3-ee5ced9ad2b2")
+	)
+	(junction
 		(at 76.2 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1397f16-01d8-4902-98af-347e36b167a8")
 	)
 	(junction
-		(at 88.9 54.61)
+		(at 142.24 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca563937-83ef-434a-97ae-9662c22ae07d")
+		(uuid "c9dd1087-11d8-4f01-8eb3-16b4488b77d7")
 	)
 	(junction
-		(at 54.61 86.36)
+		(at 76.2 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcbdd3f6-57d1-4e5c-a602-2c83ab32d17e")
-	)
-	(junction
-		(at 54.61 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8fe0891-6473-4743-91fc-e4d12059d677")
+		(uuid "d671bbc9-d30d-41a1-a393-0100aeab8414")
 	)
 	(junction
 		(at 41.91 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eea8e447-9612-4a72-8233-f58d5b8068fa")
+		(uuid "d7e056af-a753-4f11-a556-56009d653a89")
 	)
 	(junction
-		(at 41.91 72.39)
+		(at 154.94 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0c6607b-887b-49a7-95cd-4c63044d25db")
+		(uuid "da2ff9d6-a91c-4ac7-972c-09c203af01d4")
 	)
 	(wire
 		(pts
@@ -1269,23 +1279,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 88.9 54.61)
+			(xy 154.94 86.36) (xy 154.94 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "061b4536-1e15-463f-bcb9-2e17a71f8013")
-	)
-	(wire
-		(pts
-			(xy 121.92 71.12) (xy 121.92 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078a6b08-b0e6-4f9e-abeb-2153d2ceb5be")
+		(uuid "09ae11f9-46ba-41bf-b34f-75c200b1804c")
 	)
 	(wire
 		(pts
@@ -1299,37 +1299,27 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 72.39) (xy 41.91 55.88)
+			(xy 154.94 55.88) (xy 154.94 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c8210b9-b5c2-4630-9a26-f76d40d33f8e")
+		(uuid "14b69b83-4638-48c7-9204-3bc1293786c1")
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 142.24 43.18)
+			(xy 76.2 55.88) (xy 76.2 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "148caa84-f166-4d64-97e9-e67331096cde")
+		(uuid "1f319a63-0955-42a5-a67d-0d1affefc4ac")
 	)
 	(wire
 		(pts
-			(xy 54.61 44.45) (xy 54.61 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e9fa34-a434-4a80-a6d9-7a15168aa753")
-	)
-	(wire
-		(pts
-			(xy 76.2 85.09) (xy 76.2 71.12)
+			(xy 76.2 43.18) (xy 76.2 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 88.9 71.12)
+			(xy 88.9 43.18) (xy 88.9 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1349,37 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 85.09) (xy 88.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da844ab-8bd9-4c53-a5d3-afb86a2d17be")
-	)
-	(wire
-		(pts
-			(xy 54.61 86.36) (xy 54.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aec4828-67e9-4118-ae86-1e06d980738b")
-	)
-	(wire
-		(pts
-			(xy 121.92 43.18) (xy 121.92 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc645f1-b9eb-4454-8ed9-5f2254c66efa")
-	)
-	(wire
-		(pts
-			(xy 142.24 71.12) (xy 142.24 54.61)
+			(xy 142.24 43.18) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 86.36) (xy 41.91 72.39)
+			(xy 41.91 44.45) (xy 41.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1399,33 +1359,73 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 71.12) (xy 76.2 54.61)
+			(xy 154.94 69.85) (xy 154.94 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c8594f2-0d94-427d-bcad-8c7d5f9bfb9f")
+		(uuid "4add5ee9-c18c-4448-8dcb-9034d480a1f1")
 	)
 	(wire
 		(pts
-			(xy 142.24 85.09) (xy 142.24 71.12)
+			(xy 121.92 69.85) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63560fd9-0237-46a4-940c-c956b80dd42e")
+		(uuid "5007ed67-ee64-4018-b6e4-b4567f49598a")
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 109.22 71.12)
+			(xy 88.9 55.88) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a72170-3a9c-4be4-bbaf-9767ab7e4e7c")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65d6dafb-7663-4842-95ad-774759c505d6")
+	)
+	(wire
+		(pts
+			(xy 41.91 69.85) (xy 41.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ef72e8-b938-45ee-9a39-f489c2c09b99")
+	)
+	(wire
+		(pts
+			(xy 54.61 55.88) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7000dfb3-02b7-47df-94bf-201d5130e6cd")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b36a0b-864b-413c-95be-364f76b69259")
 	)
 	(wire
 		(pts
@@ -1439,33 +1439,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 88.9 85.09)
+			(xy 88.9 86.36) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dce0225-3c51-4bfe-8abe-d3d6763323e1")
-	)
-	(wire
-		(pts
-			(xy 76.2 54.61) (xy 76.2 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e5bc292-1510-4464-997c-d21026f75c3f")
-	)
-	(wire
-		(pts
-			(xy 41.91 55.88) (xy 41.91 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8603db64-3c36-4545-b215-6d156483817f")
+		(uuid "7e692109-400f-420d-affd-735eed69e3ad")
 	)
 	(wire
 		(pts
@@ -1499,13 +1479,53 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 85.09) (xy 154.94 92.71)
+			(xy 142.24 55.88) (xy 142.24 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e723213-b2bc-46f7-b33b-16ba566b9d3e")
+		(uuid "a58029c1-b720-45b1-8e2a-1faed555dd84")
+	)
+	(wire
+		(pts
+			(xy 88.9 69.85) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a994d335-495c-4237-a96a-1b7061f548e2")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad60d881-0feb-45a4-aff9-80c72dc5a4d8")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2211f9-8d99-4fa5-b717-56eb657da736")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5babb7c-a8a8-4dfc-ba41-5d1ace78885c")
 	)
 	(wire
 		(pts
@@ -1529,27 +1549,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 121.92 92.71)
+			(xy 54.61 69.85) (xy 54.61 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6305f6f-12f7-45f7-babd-c61d2f590be2")
+		(uuid "dbe6f3e1-e484-476e-9a2a-7ae2b994be47")
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 154.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d487e79d-1710-4048-b3d2-f15dd147bd2d")
-	)
-	(wire
-		(pts
-			(xy 154.94 43.18) (xy 154.94 54.61)
+			(xy 154.94 43.18) (xy 154.94 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1569,13 +1579,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 54.61) (xy 109.22 43.18)
+			(xy 121.92 55.88) (xy 121.92 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eaa381d7-ddd1-4efa-9c81-042eb1966773")
+		(uuid "e0a057c9-6e8e-49f4-85c1-720aa83be905")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 41.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d512a5-d411-43aa-962c-7c9f3fb6464b")
 	)
 	(wire
 		(pts
@@ -1589,6 +1609,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 86.36) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e9c3d0-ed7a-4ce7-91ae-dd52522e7d61")
+	)
+	(wire
+		(pts
 			(xy 142.24 43.18) (xy 142.24 39.37)
 		)
 		(stroke
@@ -1599,23 +1629,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 54.61) (xy 121.92 71.12)
+			(xy 121.92 43.18) (xy 121.92 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f54cfd96-bf5e-4d1f-8680-22ca5ec63dc0")
-	)
-	(wire
-		(pts
-			(xy 154.94 71.12) (xy 154.94 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ff3a0d-013a-481b-8b21-57f23b51f9f0")
 	)
 	(wire
 		(pts
@@ -1629,27 +1649,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 109.22 54.61)
+			(xy 54.61 86.36) (xy 54.61 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbc85960-8a02-4d74-8fce-396fa52c9cd6")
+		(uuid "fe0c513a-2038-4cd5-9305-d087008552a8")
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 54.61 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc37f99e-c346-4634-8f7e-59623de4b97c")
-	)
-	(wire
-		(pts
-			(xy 54.61 72.39) (xy 54.61 86.36)
+			(xy 54.61 44.45) (xy 54.61 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1713,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 114.3 85.09 90)
+		(at 81.28 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1712,9 +1722,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "04e713b0-4658-4e9b-8da5-03f374035e15")
-		(property "Reference" "M21"
-			(at 116.84 77.47 90)
+		(uuid "047e325f-9541-4319-8fd2-f1507a65657a")
+		(property "Reference" "M6"
+			(at 83.82 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1723,8 +1733,8 @@
 				)
 			)
 		)
-		(property "Value" "PPN7PA12C1"
-			(at 116.84 80.01 90)
+		(property "Value" "GA12-N20"
+			(at 83.82 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1733,8 +1743,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 116.586 85.09 0)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 83.566 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1745,7 +1755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.586 85.09 0)
+			(at 83.566 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1756,7 +1766,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 114.3 85.09 0)
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,15 +1777,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9a4e5e0c-6589-4aef-8ebe-b44db95ace1d")
+			(uuid "ad7a824f-3dce-4870-85ca-8a4fc7f02869")
 		)
 		(pin "1"
-			(uuid "ec52cf5a-502c-4e71-addc-2801ca204b62")
+			(uuid "a7444327-3925-426a-8f30-eb95632fd48c")
 		)
 		(instances
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M21")
+					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -1783,7 +1793,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 114.3 54.61 90)
+		(at 147.32 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1792,9 +1802,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0df92cbe-3c10-4005-92ad-9d6be95ad73b")
-		(property "Reference" "M19"
-			(at 116.84 46.99 90)
+		(uuid "15d6e295-4166-4c1d-9fc0-ee77a7b7bc9b")
+		(property "Reference" "M12"
+			(at 149.86 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1803,8 +1813,8 @@
 				)
 			)
 		)
-		(property "Value" "PPN7PA12C1"
-			(at 116.84 49.53 90)
+		(property "Value" "GA12-N20"
+			(at 149.86 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1813,8 +1823,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 116.586 54.61 0)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 149.606 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1825,7 +1835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.586 54.61 0)
+			(at 149.606 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,7 +1846,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 114.3 54.61 0)
+			(at 147.32 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,15 +1857,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5557d5b-2f67-4bbc-9e91-1903027ed8a1")
+			(uuid "5e1c6783-2d61-4fc5-b932-39360c902a0a")
 		)
 		(pin "1"
-			(uuid "7fbe13f5-2409-4d0f-bfbe-1e87e7b692d3")
+			(uuid "d60fdaaf-8e81-4a6d-b477-9fc8e6434e4d")
 		)
 		(instances
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M19")
+					(reference "M12")
 					(unit 1)
 				)
 			)
@@ -1863,7 +1873,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 81.28 71.12 90)
+		(at 114.3 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1872,9 +1882,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f6274e1-3a08-46d7-9b36-becf3f6ab078")
-		(property "Reference" "M17"
-			(at 83.82 63.5 90)
+		(uuid "16e35ac3-6149-4eaf-9bfb-0a7683461b8b")
+		(property "Reference" "M9"
+			(at 116.84 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1883,8 +1893,8 @@
 				)
 			)
 		)
-		(property "Value" "PPN7PA12C1"
-			(at 83.82 66.04 90)
+		(property "Value" "GA12-N20"
+			(at 116.84 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1893,8 +1903,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 83.566 71.12 0)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 116.586 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1905,7 +1915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.566 71.12 0)
+			(at 116.586 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1916,7 +1926,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 81.28 71.12 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1927,15 +1937,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a2ca718a-a387-465a-aa65-fcff83304c70")
+			(uuid "260b250e-d6e9-4f59-ac8e-36a8b5622ecb")
 		)
 		(pin "1"
-			(uuid "e7c0ee62-9feb-4caf-9a94-fba45c99073a")
+			(uuid "a9ea6762-9a6c-4490-a3f5-40e87b55cec4")
 		)
 		(instances
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M17")
+					(reference "M9")
 					(unit 1)
 				)
 			)
@@ -1943,7 +1953,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 46.99 86.36 90)
+		(at 114.3 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1952,9 +1962,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32072e69-27cb-439a-b648-2e8b5fac7b40")
-		(property "Reference" "M15"
-			(at 49.53 78.74 90)
+		(uuid "2b451c60-83c3-4fb9-b1d1-6ffe4e94b148")
+		(property "Reference" "M10"
+			(at 116.84 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1963,8 +1973,8 @@
 				)
 			)
 		)
-		(property "Value" "PPN7PA12C1"
-			(at 49.53 81.28 90)
+		(property "Value" "GA12-N20"
+			(at 116.84 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1973,8 +1983,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 49.276 86.36 0)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 116.586 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,7 +1995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.276 86.36 0)
+			(at 116.586 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1996,7 +2006,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 46.99 86.36 0)
+			(at 114.3 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2007,15 +2017,95 @@
 			)
 		)
 		(pin "2"
-			(uuid "c5db5ca6-82c0-4171-ae9f-8e0d6ecfcdd8")
+			(uuid "c0195b43-87a1-4070-88ec-e4e7740e8fb5")
 		)
 		(pin "1"
-			(uuid "1e8852f2-23ad-4db9-be27-14f22ad72685")
+			(uuid "c28f5235-f62e-4266-8c45-e6493520c1aa")
 		)
 		(instances
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M15")
+					(reference "M10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 147.32 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2efd9181-a2fb-44c7-98a9-c23fcf6eadfc")
+		(property "Reference" "M13"
+			(at 149.86 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GA12-N20"
+			(at 149.86 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 149.606 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.606 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 147.32 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9dc87604-1c70-448a-a0b5-ca3835901c78")
+		)
+		(pin "1"
+			(uuid "30c02423-e5f1-4bc8-bcaf-e0dc49a64d41")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M13")
 					(unit 1)
 				)
 			)
@@ -2416,86 +2506,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 81.28 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ce47110-c5b0-46e8-b5be-77e4120a5593")
-		(property "Reference" "M16"
-			(at 83.82 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PPN7PA12C1"
-			(at 83.82 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 83.566 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.566 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 81.28 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee6e238b-4523-4399-9fd5-cb21c2b29072")
-		)
-		(pin "1"
-			(uuid "8a0cc5d5-aeca-4833-ac9b-1bec9629459d")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 115.57 43.18 0)
 		(unit 1)
@@ -2650,6 +2660,86 @@
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 81.28 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb01505-ae53-4031-adb7-cbcf3e77b206")
+		(property "Reference" "M5"
+			(at 83.82 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GA12-N20"
+			(at 83.82 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 83.566 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.566 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 81.28 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2d405b15-8a43-4acb-aac8-749d32121ee2")
+		)
+		(pin "1"
+			(uuid "ee48ce3b-d841-4932-8ced-4a7239ff4d39")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -2848,6 +2938,166 @@
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 114.3 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1ea1e4-5cce-4b54-97db-b7c0d22e83ef")
+		(property "Reference" "M8"
+			(at 116.84 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GA12-N20"
+			(at 116.84 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 116.586 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.586 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 114.3 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4fcb128-96d9-4f17-946e-2eae2de71271")
+		)
+		(pin "1"
+			(uuid "b11adaa9-8b00-4299-b90b-31940a42cdd9")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 81.28 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "739a6c2b-879c-495a-b987-6781c98bf6ca")
+		(property "Reference" "M7"
+			(at 83.82 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GA12-N20"
+			(at 83.82 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 83.566 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.566 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8c10e35-08ea-41d3-80b8-07132ed5a991")
+		)
+		(pin "1"
+			(uuid "4aa73499-60b5-4b6a-aa4a-4dd14b87aa81")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M7")
 					(unit 1)
 				)
 			)
@@ -3083,86 +3333,6 @@
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 147.32 85.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9821a064-54e2-46cb-ace2-607f5f34edd6")
-		(property "Reference" "M24"
-			(at 149.86 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PPN7PA12C1"
-			(at 149.86 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 149.606 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.606 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 147.32 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7b9d70d9-f991-4f01-be30-30f1975f5bd7")
-		)
-		(pin "1"
-			(uuid "9d526c55-db0f-4404-861d-9781b02f2e2d")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M24")
 					(unit 1)
 				)
 			)
@@ -3417,8 +3587,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b62feaf1-e1fa-4c3c-ad07-f0ddee35d4fa")
-		(property "Reference" "M13"
+		(uuid "b1bb5284-cad7-4142-b575-b9e30cecd1c5")
+		(property "Reference" "M2"
 			(at 49.53 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Value" "PPN7PA12C1"
+		(property "Value" "GA12-N20"
 			(at 49.53 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3438,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
+		(property "Footprint" "Pozzo Lab:GA12-N20"
 			(at 49.276 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3472,15 +3642,175 @@
 			)
 		)
 		(pin "2"
-			(uuid "73673268-ade7-405e-bf92-3134f28c8488")
+			(uuid "3d51ab0c-dd6f-45d7-a7c4-5567fc8d907c")
 		)
 		(pin "1"
-			(uuid "d0186779-02fe-4392-a527-b60540b72452")
+			(uuid "b288b2e4-e220-464e-a2b9-c8560b2b9593")
 		)
 		(instances
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M13")
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 46.99 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b479d7e0-5094-475b-b773-d74d1ac1e97d")
+		(property "Reference" "M4"
+			(at 49.53 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GA12-N20"
+			(at 49.53 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 49.276 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.276 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 46.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5476eba-3778-4476-b84c-8876f60a3df8")
+		)
+		(pin "1"
+			(uuid "2f46b6ae-234e-4010-a7e6-9c57a8664ffe")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 46.99 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7544dfd-2b13-4f8f-a805-0403712df8bb")
+		(property "Reference" "M3"
+			(at 49.53 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GA12-N20"
+			(at 49.53 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 49.276 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.276 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 46.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0afa5a89-9113-4141-9bb8-6819cd403988")
+		)
+		(pin "1"
+			(uuid "8c4be3a8-0557-447a-bedb-085a12ed87d5")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -3759,86 +4089,6 @@
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 46.99 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9542408-3b52-4f8a-9ff7-0eee31e2f80c")
-		(property "Reference" "M14"
-			(at 49.53 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PPN7PA12C1"
-			(at 49.53 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 49.276 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.276 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 46.99 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2d876fc-f70d-4a2f-afee-190c6d478597")
-		)
-		(pin "1"
-			(uuid "5e13b667-7820-4845-a322-3ba2387aa6fd")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M14")
 					(unit 1)
 				)
 			)
@@ -4238,246 +4488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 114.3 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e70bccd0-bc57-4bdf-85e5-c517fbcbc33a")
-		(property "Reference" "M20"
-			(at 116.84 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PPN7PA12C1"
-			(at 116.84 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 116.586 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.586 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 114.3 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "54eca414-e766-4d10-8d99-53a1e7e31312")
-		)
-		(pin "1"
-			(uuid "df72acdf-0597-4f44-a5f4-0b55108d2533")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 81.28 85.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e78bd1a0-aaea-43dd-a2af-83027984f245")
-		(property "Reference" "M18"
-			(at 83.82 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PPN7PA12C1"
-			(at 83.82 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 83.566 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.566 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 81.28 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d2556e3a-4bed-49bc-8ac8-13ea9fd0b855")
-		)
-		(pin "1"
-			(uuid "594309f2-8894-4903-8d6b-24f367a04241")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 147.32 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e916fb56-65ed-4a3a-b090-c44d667f8115")
-		(property "Reference" "M23"
-			(at 149.86 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PPN7PA12C1"
-			(at 149.86 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 149.606 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.606 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 147.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b333f3a-ebf9-408c-807d-2a1e31a2a9dc")
-		)
-		(pin "1"
-			(uuid "d1b7e045-a062-4e4a-839c-ec58f88b6c83")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 109.22 39.37 0)
 		(unit 1)
@@ -4556,86 +4566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 147.32 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef5ac9be-042d-4863-9807-a7495a1d9b6a")
-		(property "Reference" "M22"
-			(at 149.86 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PPN7PA12C1"
-			(at 149.86 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gnome Foot Library:01x02 Jumper Pads"
-			(at 149.606 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.606 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 147.32 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb875ff1-ee54-4c55-add9-3dc5028f4af0")
-		)
-		(pin "1"
-			(uuid "3115bac0-c76b-48bb-a997-27a12404100e")
-		)
-		(instances
-			(project "S&H Management board"
-				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
-					(reference "M22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 41.91 40.64 0)
 		(unit 1)
@@ -4708,6 +4638,86 @@
 			(project "S&H Management board"
 				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 147.32 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc1cebcb-b31f-4d81-89bc-7ee52e6a6add")
+		(property "Reference" "M11"
+			(at 149.86 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GA12-N20"
+			(at 149.86 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pozzo Lab:GA12-N20"
+			(at 149.606 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.606 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5085e573-df80-45ec-a18d-f186be837180")
+		)
+		(pin "1"
+			(uuid "8f64d321-a965-4014-8573-d6d3511dc1a7")
+		)
+		(instances
+			(project "S&H Management board"
+				(path "/290a653f-642f-49df-a192-87755436cb20/d75e7e0a-f1d7-4789-983c-59e0fc66fd11"
+					(reference "M11")
 					(unit 1)
 				)
 			)
